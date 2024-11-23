@@ -21,3 +21,4 @@
 - React-infinite-scroll-component
 - Zod
 - Vite
+- Axios
