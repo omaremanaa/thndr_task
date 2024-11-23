@@ -13,7 +13,7 @@ const TickerSchema = z
 
 export const TickersSchema = z
   .object({
-    next_url: z.string(),
+    next_url: z.string().optional(),
     results: z.array(TickerSchema),
   })
   .transform((tickerData) => ({
